@@ -5,14 +5,7 @@
 a.	Make your function’s playerSelection parameter case-insensitive (so users can input rock, ROCK, RocK or any other variation).
 5.	Important note: you want to return the results of this function call, not console.log() them. You’re going to use what you return later, so let’s test this function by using console.log to see the results:
 
-# function playRound(playerSelection, computerSelection) {
-#  // your code here!
-# }
-
-# const playerSelection = "rock"
-# const computerSelection = getComputerChoice();
-
-# console.log(playRound(playerSelection, computerSelection));
+[image](https://user-images.githubusercontent.com/126475991/227702691-6265baf5-0f4e-421d-a1ca-f23eedf0c220.png)
  
 6.	Write a NEW function called game(). Use the previous function inside of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
 a.	You have not officially learned how to “loop” over code to repeat function calls… if you already know about loops from somewhere else (or if you feel like doing some more learning) feel free to use them. If not, don’t worry! Just call your playRound function 5 times in a row. Loops are covered in the next lesson.
