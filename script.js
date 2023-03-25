@@ -26,9 +26,9 @@ function game() {
   }
 
 
-    const playerSelection1 = prompt("Enter Rock, Paper, or Scissors");
+    const playerSelection = prompt("Enter Rock, Paper, or Scissors").toLowerCase();
     const computerSelection= getComputerChoice();
-    let playerSelection= playerSelection1.toLowerCase();
+    
    
     console.log(playerSelection);
     console.log(computerSelection);
